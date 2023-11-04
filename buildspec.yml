@@ -8,7 +8,6 @@ phases:
       - npm install -g typescript
   pre_build: # ビルド実行前に実行する処理等の設定
     commands:
-      - cd cicd-test-for-s3
       - npm install
   build: # ビルド実行処理等の設定
     commands:
