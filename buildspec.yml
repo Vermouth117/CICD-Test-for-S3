@@ -19,5 +19,5 @@ phases:
 artifacts:
   files:
     - '**/*' # 出力するビルドファイル
-  discard-paths: yes # 出力するビルドファイルからパスを省く（client/dist/などを省く）
   base-directory: "out"
+  # discard-paths: yes # 出力するビルドファイルからパスを省く（client/dist/などを省く）
