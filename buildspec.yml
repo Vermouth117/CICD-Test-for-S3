@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - npm install -g typescript
+      # - npm install -g typescript
   pre_build: # ビルド実行前に実行する処理等の設定
     commands:
       - npm install
