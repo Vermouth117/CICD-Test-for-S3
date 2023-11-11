@@ -7,7 +7,7 @@ phases:
       # - npm install -g typescript
   pre_build: # ビルド実行前に実行する処理等の設定
     commands:
-      - npm install
+      - npm i
   build: # ビルド実行処理等の設定
     commands:
       - npm run build
